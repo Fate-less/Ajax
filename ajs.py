@@ -11,31 +11,31 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 #cl = LineClient()
-cl = LineClient(authToken='PGrr2Yr3LvmdeB271LFvwZ+dVeOsHXqqleoTSavhZAaJgXPwtatfEsGp67VJDB6CmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithAKtkmE4Kg7NWdXwjKssswzVadRLlCTatvAYFAX9NEB3AAdB04t89/1O/w1cDnyilFU=')
+cl = LineClient(authToken='PHQsgE82SDe3jEMQEx27g/7H9ZJfWO5ykmtL/7hRSTwIBoj8S1+7zZVpc3RvWisgmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithALeNMt5SAZRIfDO8hqsoBH83dEpYM5bAPNSVBYVKPWmBAdB04t89/1O/w1cDnyilFU=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='PGrr2Yr3LvmdeB271LFvwZ+dVeOsHXqqleoTSavhZAaJgXPwtatfEsGp67VJDB6CmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithAKtkmE4Kg7NWdXwjKssswzVadRLlCTatvAYFAX9NEB3AAdB04t89/1O/w1cDnyilFU=')
+ki = LineClient(authToken='PHQsgE82SDe3jEMQEx27g/7H9ZJfWO5ykmtL/7hRSTwIBoj8S1+7zZVpc3RvWisgmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithALeNMt5SAZRIfDO8hqsoBH83dEpYM5bAPNSVBYVKPWmBAdB04t89/1O/w1cDnyilFU=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='PGrr2Yr3LvmdeB271LFvwZ+dVeOsHXqqleoTSavhZAaJgXPwtatfEsGp67VJDB6CmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithAKtkmE4Kg7NWdXwjKssswzVadRLlCTatvAYFAX9NEB3AAdB04t89/1O/w1cDnyilFU=')
+kk = LineClient(authToken='PHQsgE82SDe3jEMQEx27g/7H9ZJfWO5ykmtL/7hRSTwIBoj8S1+7zZVpc3RvWisgmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithALeNMt5SAZRIfDO8hqsoBH83dEpYM5bAPNSVBYVKPWmBAdB04t89/1O/w1cDnyilFU=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 #kc = LineClient()
-kc = LineClient(authToken='PGrr2Yr3LvmdeB271LFvwZ+dVeOsHXqqleoTSavhZAaJgXPwtatfEsGp67VJDB6CmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithAKtkmE4Kg7NWdXwjKssswzVadRLlCTatvAYFAX9NEB3AAdB04t89/1O/w1cDnyilFU=')
+kc = LineClient(authToken='PHQsgE82SDe3jEMQEx27g/7H9ZJfWO5ykmtL/7hRSTwIBoj8S1+7zZVpc3RvWisgmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithALeNMt5SAZRIfDO8hqsoBH83dEpYM5bAPNSVBYVKPWmBAdB04t89/1O/w1cDnyilFU=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 #sw = LineClient()
-sw = LineClient(authToken='PGrr2Yr3LvmdeB271LFvwZ+dVeOsHXqqleoTSavhZAaJgXPwtatfEsGp67VJDB6CmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithAKtkmE4Kg7NWdXwjKssswzVadRLlCTatvAYFAX9NEB3AAdB04t89/1O/w1cDnyilFU=')
+sw = LineClient(authToken='PHQsgE82SDe3jEMQEx27g/7H9ZJfWO5ykmtL/7hRSTwIBoj8S1+7zZVpc3RvWisgmNw7tYTZO5Hfb69dSALsjrM0ZHicLH9aQYO5NrithALeNMt5SAZRIfDO8hqsoBH83dEpYM5bAPNSVBYVKPWmBAdB04t89/1O/w1cDnyilFU=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
